@@ -47,7 +47,7 @@ window.onclick = function (event) {
 
 // 카카오톡 공유
 function shareKakao() {
-    const shareUrl = "https://jongyoun3128.github.io/bizup-gangjuhyun2/";
+    const shareUrl = "https://jongyoun3128.github.io/bizup-gabi/";
     const text = "손가비 디지털 명함";
     const message = `${text}\n${shareUrl}`;
 
@@ -88,9 +88,7 @@ function fallbackKakaoShare(message) {
                 "카카오톡이 설치되어 있지 않거나 열 수 없습니다.\n링크를 복사하시겠습니까?",
             )
         ) {
-            copyToClipboard(
-                "https://jongyoun3128.github.io/bizup-gangjuhyun2/",
-            );
+            copyToClipboard("https://jongyoun3128.github.io/bizup-gabi/");
         }
     }, 1000);
 
