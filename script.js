@@ -214,7 +214,7 @@ const translations = {
         position: "Chief Director",
         name: "손 가 비",
         address: "금천구 가산동 벚꽃로 286<br />삼성리더스타워 1101호",
-        tagline: "Business & Consulting",
+        tagline: "Business &<br /> Consulting",
         save_contact: "연락처 저장",
         kakao: "카카오톡",
         insta: "인스타그램",
