@@ -480,7 +480,9 @@ body {
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
-
+.banner img {
+    width: 100%;
+}
 .banner-main-text {
     font-size: 42px;
     font-weight: 900;
