@@ -227,226 +227,181 @@
                     <span class="fi fi-ru"></span>
                 </button>
             </div>
-            <section class="other-business">
-                <div class="container1">
-                    <h2 class="section-title1" data-translate="business_title">
-                        포그몰과 함께하는 다양한 비즈니스
-                    </h2>
-                </div>
-                <div class="business-grid">
-                    <div class="business-card pointground">
-                        <h3>
-                            <img src="images/mall.png" alt="" />
-                        </h3>
-                        <p data-translate="pointground_desc">
-                            포인트그라운드몰<br />
-                            브랜드/서비스 정보를 확인하세요
-                        </p>
-                        <div class="business-features">
-                            <span data-translate="pointground_feature1"
-                                >✓ 공식 안내</span
-                            >
-                            <span data-translate="pointground_feature2"
-                                >✓ 서비스 소개</span
-                            >
-                        </div>
+            <div class="tabs-container">
+                <!-- 탭 컨텐츠 -->
+                <div class="tab-content">
+                    <!-- 연락처 탭 -->
+                    <div id="contact-tab" class="tab-panel active">
+                        <a href="tel:010-8407-8428" class="profile-link">
+                            <div class="profile-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20 10.999h2C22 5.869 18.127 2 12.99 2v2C17.052 4 20 6.943 20 10.999z"
+                                    />
+                                    <path
+                                        d="M13 8c2.103 0 3 .897 3 3h2c0-3.225-1.775-5-5-5v2zm3.422 5.443a1.001 1.001 0 00-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 00.043-1.391L6.859 3.513a1 1 0 00-1.391-.087l-2.17 1.861a1 1 0 00-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 00.648-.291l1.86-2.171a1 1 0 00-.086-1.391l-4.064-3.696z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="profile-link-content">
+                                <div class="profile-link-title">전화번호</div>
+                                <div class="profile-link-subtitle">
+                                    010-8407-8428
+                                </div>
+                            </div>
+                        </a>
+
+                        <a
+                            href="mailto:pointground@naver.com"
+                            class="profile-link"
+                        >
+                            <div class="profile-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 001.228 0L20 9.044 20.002 18H4z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="profile-link-content">
+                                <div class="profile-link-title">이메일</div>
+                                <div class="profile-link-subtitle">
+                                    pointground@naver.com
+                                </div>
+                            </div>
+                        </a>
+                        <a
+                            href="http://pointground.co.kr/"
+                            target="_blank"
+                            class="profile-link profile-link2"
+                        >
+                            <div class="profile-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="profile-link-content">
+                                <div class="profile-link-title">
+                                    포인트그라운드
+                                </div>
+                            </div>
+                        </a>
                         <a
                             href="http://pointground.kr/"
                             target="_blank"
-                            class="business-link"
+                            class="profile-link profile-link2"
                         >
-                            <button
-                                class="btn-business"
-                                id="pointground-btn"
-                                data-translate="view_more"
-                            >
-                                자세히 보기
-                            </button>
+                            <div class="profile-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="profile-link-content">
+                                <div class="profile-link-title">
+                                    POINTGROUND MALL
+                                </div>
+                            </div>
                         </a>
-                    </div>
-
-                    <div class="business-card rental">
-                        <h3>
-                            <img
-                                class="small-size"
-                                src="images/rental-logo1.png"
-                                alt=""
-                            />
-                        </h3>
-                        <p data-translate="rental_desc">
-                            생활과 사업에 필요한<br />
-                            다양한 렌탈 서비스
-                        </p>
-                        <div class="business-features">
-                            <span data-translate="rental_feature1"
-                                >✓ 다양한 상품군</span
-                            >
-                            <span data-translate="rental_feature2"
-                                >✓ 유연한 계약</span
-                            >
-                        </div>
                         <a
-                            href="https://pointground.rental-shop.net/"
+                            href="https://jongyoun3128.github.io/namecard/"
                             target="_blank"
-                            class="business-link"
+                            class="profile-link profile-link2"
                         >
-                            <button
-                                class="btn-business"
-                                data-translate="view_more"
-                            >
-                                자세히 보기
-                            </button>
+                            <div class="profile-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="profile-link-content">
+                                <div class="profile-link-title">BIZUP</div>
+                            </div>
                         </a>
-                    </div>
-                    <div class="business-card interior">
-                        <h3>
-                            <img src="images/theteamlogo.png" alt="" />
-                        </h3>
-                        <p data-translate="interior_desc">
-                            주거와 상업 공간을 위한<br />
-                            프리미엄 인테리어 솔루션
-                        </p>
-                        <div class="business-features">
-                            <span data-translate="interior_feature1"
-                                >✓ 맞춤형 디자인</span
-                            >
-                            <span data-translate="interior_feature3"
-                                >✓ 원스톱 시공</span
-                            >
-                        </div>
+
                         <a
                             href="http://theteamdesign.co.kr/"
                             target="_blank"
-                            class="business-link"
+                            class="profile-link profile-link2"
                         >
-                            <button
-                                class="btn-business"
-                                data-translate="view_more"
-                            >
-                                자세히 보기
-                            </button>
+                            <div class="profile-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="profile-link-content">
+                                <div class="profile-link-title">
+                                    THE TEAM DESIGN
+                                </div>
+                            </div>
                         </a>
-                    </div>
-                    <div class="business-card cafe">
-                        <h3><img src="images/blueseedlogo.png" alt="" /></h3>
-                        <p data-translate="cafe_desc">
-                            트렌디하고 수익성 높은 카페 브랜드<br />
-                            성공적인 창업의 기회를 제공합니다
-                        </p>
-                        <div class="business-features">
-                            <span data-translate="cafe_feature1"
-                                >✓ 체계적인 지사운영 시스템</span
-                            >
-                            <span data-translate="cafe_feature3"
-                                >✓ 마케팅 지원</span
-                            >
-                        </div>
+
                         <a
                             href="https://jongyoun3128.github.io/blueseed/"
-                            class="business-link"
                             target="_blank"
+                            class="profile-link profile-link2"
                         >
-                            <button
-                                class="btn-business"
-                                id="cafe-btn"
-                                data-translate="view_more"
-                            >
-                                자세히 보기
-                            </button>
+                            <div class="profile-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="profile-link-content">
+                                <div class="profile-link-title">BLUE SEED</div>
+                            </div>
                         </a>
-                    </div>
-                    <div class="business-card zeroking">
-                        <h3>
-                            <img
-                                src="images/zerokinglogo.png"
-                                alt="ZERO KING"
-                            />
-                        </h3>
-                        <p data-translate="zeroking_desc">
-                            누구나 쉽게 운영할 수 있는<br />
-                            완전 자동화 무인 스토어 창업
-                        </p>
-                        <div class="business-features">
-                            <span data-translate="zeroking_feature1"
-                                >✓ 가맹비 0원</span
-                            >
-                            <span data-translate="zeroking_feature3"
-                                >✓ 설비 전체 렌탈</span
-                            >
-                        </div>
+
                         <a
                             href="https://jongyoun3128.github.io/zeroking/"
-                            class="business-link"
                             target="_blank"
+                            class="profile-link profile-link2"
                         >
-                            <button
-                                class="btn-business"
-                                id="zeroking-btn"
-                                data-translate="view_more"
-                            >
-                                자세히 보기
-                            </button>
+                            <div class="profile-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="profile-link-content">
+                                <div class="profile-link-title">ZERO KING</div>
+                            </div>
                         </a>
+
+                        <div class="profile-link-content-map">
+                            <div class="profile-link-title">지도</div>
+                            <div class="profile-link-map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.1701177959867!2d126.88161937629378!3d37.48031172906699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9fc0154eaa4d%3A0xf88aac643fd7c85b!2z7IK87ISx66as642U7Iqk7YOA7JuM!5e0!3m2!1sko!2skr!4v1770001746063!5m2!1sko!2skr"
+                                    style="border: 0"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                ></iframe>
+                            </div>
+                        </div>
+
+                        <div class="profile-link-content-qr">
+                            <div class="profile-link-title">QR</div>
+                            <div class="profile-link-qr">
+                                <a
+                                    target="_blank"
+                                    href="https://jongyoun3128.github.io/bizup-gabi/"
+                                    ><img src="images/qr2.png" alt=""
+                                /></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
-
-            <!-- 전자명함 배너 -->
-            <!-- <div class="digital-namecard-banner">
-                <div class="banner-background">
-                    <div class="banner-circle circle-1"></div>
-                    <div class="banner-circle circle-2"></div>
-                    <div class="banner-circle circle-3"></div>
-                </div>
-                <div class="banner-content">
-                    <h2 class="banner-title">전자명함</h2>
-                    <h3 class="banner-main-text">
-                        QR코드안에 <br />작은 홈페이지
-                    </h3>
-                    <p class="banner-description">종이명함 대신 전자명함</p>
-                    <p class="banner-description">
-                        이젠 명함이 개인 미니홈페이지 입니다.
-                    </p>
-                </div>
-            </div> -->
-            <div class="banner">
-                <img src="images/banner2.png" alt="" />
             </div>
-
-            <section class="content">
-                <img src="images/page10.png" alt="" />
-                <a
-                    target="_blank"
-                    href="https://jongyoun3128.github.io/promote/cha.html"
-                    ><img src="images/page1.png" alt=""
-                /></a>
-                <!-- <img src="images/page2.png" alt="" /> -->
-                <img src="images/page3.png" alt="" />
-                <a href="https://jongyoun3128.github.io/promote/"
-                    ><img src="images/page4.png" alt=""
-                /></a>
-            </section>
-
-            <!-- <div class="qr-section" id="qrSection">
-                <h3>
-                    <i class="fas fa-qrcode"></i>
-                    QR 코드로 명함 주문하기
-                </h3>
-                <div class="qr-code-wrapper">
-                    <a
-                        href="http://pointground.kr/shop/shop.php?type=shopdetail&category_code=235006000000000&brandcode=23500600000000000000001&page=1&sort=ICBsb2NhdGlvbiBkZXNjLCB3ZGF0ZSBkZXNjIA==&page_type=shop_catalog.php&pagesize=&word=&part=brandname&product_loc=&brand=&category=&par_code=235006"
-                        target="_blank"
-                        ><img src="images/qr2.png" alt=""
-                    /></a>
-                </div>
-                <p class="qr-description">
-                    QR 코드를 스캔하면<br />
-                    명함을 주문할수 있습니다.
-                </p>
-            </div> -->
         </div>
-
-        <!-- 공유 메뉴 모달 -->
 
         <script src="script.js"></script>
     </body>

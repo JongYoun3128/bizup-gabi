@@ -500,6 +500,150 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+/* 탭 버튼 */
+.tabs {
+    display: flex;
+    background: #f5f5f5;
+    border-bottom: 2px solid #e0e0e0;
+}
+.card-back-right img {
+    width: 110%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.tab-button {
+    width: 100%;
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    background: #203f4f;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Segoe UI", "Noto Sans KR", sans-serif;
+    position: relative;
+}
+.button2 {
+    background-color: #203f4f;
+}
+.profile-link-qr {
+    text-align: center;
+}
+.profile-link-qr img {
+    width: 60%;
+}
+
+.tab-button.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #2c3e50;
+}
+
+/* 탭 컨텐츠 */
+
+.tab-panel {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tab-panel.active {
+    display: flex;
+}
+
+/* 프로필 링크 */
+.profile-link {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.profile-link:hover {
+    background: white;
+    border-color: #2c3e50;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-link-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.profile-link-icon svg {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.profile-link-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.profile-link-content-qr {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px 20px;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+.profile-link-content-map {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px 20px;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+.profile-link-map {
+    text-align: center;
+}
+.profile-link-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profile-link-subtitle {
+    font-size: 13px;
+    color: #666;
+}
+.profile-link2 {
+    color: #203f4f;
+}
+.profile-link2 .profile-link-icon {
+    background: #203f4f;
+}
+
 @media (max-width: 480px) {
     .digital-namecard-banner {
         margin: 20px auto;
